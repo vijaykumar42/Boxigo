@@ -1,0 +1,319 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  background-color: rgba(57, 83, 138, 1);
+  color: white;
+  padding: 5px;
+  margin: 0;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0;
+}
+
+.container1 {
+  margin: 15px;
+  border: 1px solid grey;
+}
+
+.container2 {
+  margin: 15px;
+  border: 1px solid grey;
+}
+
+.container3 {
+  margin: 15px;
+  border: 1px solid grey;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.col1 {
+  width: 20%;
+  text-align: left;
+  padding: 0 20px;
+}
+.col2 {
+  width: 20%;
+  text-align: center;
+  padding: 0 20px;
+}
+.col3 {
+  width: 20%;
+  text-align: center;
+  padding: 0 20px;
+}
+.col4 {
+  width: 20%;
+  text-align: center;
+  padding: 0 20px;
+}
+.col5 {
+  width: 20%;
+  text-align: -webkit-right;
+  padding: 0 20px;
+}
+.col3 hr {
+  margin: 5px 0;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(63, 105, 194);
+  margin: 0;
+}
+.two {
+  margin: 0 10px;
+}
+.orderDate {
+  color: rgb(63, 105, 194);
+}
+
+.userid {
+  color: rgb(63, 105, 194);
+}
+
+.housedetails {
+  display: flex;
+}
+
+.imgspan {
+  margin: 0 5px 0 0;
+}
+
+.cspan {
+  margin: 0 0 0 5px;
+}
+
+.container2 .two {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 .two div {
+  display: flex;
+  justify-content: right;
+}
+.container2 .two .orderDate {
+  width: 20%;
+  text-align: left;
+}
+.container2 .two .vendor {
+  width: 60%;
+  text-align: right;
+}
+.container2 .two .orderTotal {
+  width: 20%;
+  text-align: right;
+}
+
+.container2 .two p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.two p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.rate {
+  background-color: tomato;
+  color: white;
+  padding: 5px 10px;
+  margin: 0;
+  text-align: center;
+  font-size: inherit;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.useButton {
+  background-color: rgba(57, 83, 138, 1);
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+  margin: 15px 0 0 0;
+  cursor: pointer;
+}
+
+.active,
+.useButton:hover {
+  background-color: tomato;
+}
+
+.viewMoreDetails {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+  margin: 15px 50px;
+}
+
+.vmd1 {
+  margin: 10px 0 0 0;
+  border: 1px solid tomato;
+}
+
+.vmd1Heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 0 40px;
+  border-bottom: 1px solid tomato;
+}
+.vmd1Heading h4 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.vmd1c1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.roomTitle {
+  margin: 5px 0;
+}
+
+.roomTitle p {
+  width: fit-content;
+  padding: 5px 10px;
+  border: 2px solid #f2f2f2;
+}
+
+.vmd1c1 .itemsDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.vmd1c1 .itemsDetails > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 2px 18px;
+  padding: 0px 4px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+}
+
+.vmd1c2 {
+  width: 50%;
+}
+
+.vmd1c2 .itemsDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vmd1c2 .itemsDetails > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 2px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+}
+
+.vmd1c3 {
+  width: 50%;
+}
+
+.vmd1c3 .itemsDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.vmd1c3 .itemsDetails > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 2px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+}
+
+.vmd2 {
+  margin: 15px;
+}
+
+.vmd2c1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.vmd2c1 .oldHouse {
+  border: 2px solid #f2f2f2;
+  padding: 10px 20px;
+}
+
+.vmd2c1 .floorNo span {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.vmd2c1 .elevator span {
+  border: 1px solid lightgreen;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.vmd2c1 .packing span {
+  border: 1px solid lightgreen;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.vmd2c1 .dist span {
+  border: 1px solid lightgreen;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.vmd2c2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.vmd2c2 .newHouse {
+  border: 2px solid #f2f2f2;
+  padding: 10px 20px;
+}
+
+.vmd2c2 .floorNo span {
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.vmd2c2 .elevator span {
+  border: 1px solid lightgreen;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.vmd2c2 .unpacking span {
+  border: 1px solid lightgreen;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.vmd2c2 .dist span {
+  border: 1px solid lightgreen;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
