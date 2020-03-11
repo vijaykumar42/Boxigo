@@ -1,5 +1,5 @@
 # Boxigo
 
-![picture](1.png)
+![picture](1.PNG)
 
-![picture](2.png)
+![picture](2.PNG)
